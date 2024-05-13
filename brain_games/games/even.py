@@ -1,4 +1,4 @@
-from brain_games.core import even_game
+from brain_games.core import game_even
 import random
 from brain_games.instruction import INSTRUCTION_EVEN
 
