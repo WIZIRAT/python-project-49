@@ -13,7 +13,7 @@ def game_even(question_and_answer, instruction):
         if user_answer == correct_answer:
             print('Correct!')
         else:
-            print(f"'{user_answer}' is wrong answer ';('. Correct answer was '{correct_answer}.'\n"
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\n"
                   f"Let's try again, {name}!")
             return
         print(f"Confratulations, {name}!")
