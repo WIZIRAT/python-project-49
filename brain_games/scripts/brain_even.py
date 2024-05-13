@@ -6,5 +6,5 @@ def main():
     start_game_even()
 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     main()
