@@ -8,7 +8,7 @@ def find_gcd():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
 
-    expression = f"{num1} {num2}"
+    expression = (f"{num1} {num2}")
     result = str(math.gcd(num1, num2))
     return expression, result
 
