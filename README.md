@@ -5,7 +5,10 @@
 Аскинема
 
 Игра: "Проверка на чётность"
-<a href="https://asciinema.org/a/6OsIu14hEUWzBz0MBdfoOdXyM" target="_blank"><img src="https://asciinema.org/a/6OsIu14hEUWzBz0MBdfoOdXyM.svg" /></a>
+[![asciicast](https://asciinema.org/a/VCM5N3OliF5vxXpgk1HHB7mL3.svg)](https://asciinema.org/a/VCM5N3OliF5vxXpgk1HHB7mL3)
 
 Игра: "Калькулятор"
-<a href="https://asciinema.org/a/10ZBdyylmrcXsTNZQmRdwDTwG" target="_blank"><img src="https://asciinema.org/a/10ZBdyylmrcXsTNZQmRdwDTwG.svg" /></a>
+[![asciicast](https://asciinema.org/a/ljTfbXIqPMO2uqUpYD4chVLF3.svg)](https://asciinema.org/a/ljTfbXIqPMO2uqUpYD4chVLF3)
+
+
+Игра: "Наибольший общий делитель (НОД)"
