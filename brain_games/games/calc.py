@@ -9,7 +9,7 @@ def get_math_expression():
     operator = random.choice(['+', '-', '*'])
 
     expression = (f"{num1} {operator} {num2}")
-    result = eval(expression)
+    result = str(eval(expression))
     return expression, result
 
 
