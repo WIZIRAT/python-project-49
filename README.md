@@ -12,3 +12,4 @@
 
 
 Игра: "Наибольший общий делитель (НОД)"
+[![asciicast](https://asciinema.org/a/NlaN1L9JcmME9zTab8L6S09u4.svg)](https://asciinema.org/a/NlaN1L9JcmME9zTab8L6S09u4)
