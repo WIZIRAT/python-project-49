@@ -1,4 +1,4 @@
-from brain_games.core import game_even
+from brain_games.core import game_logic
 import random
 from brain_games.instruction import INSTRUCTION_EVEN
 
@@ -10,4 +10,4 @@ def get_question_answer():
 
 
 def start_game_even():
-    game_even(get_question_answer, INSTRUCTION_EVEN)
+    game_logic(get_question_answer, INSTRUCTION_EVEN)

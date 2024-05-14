@@ -1,7 +1,7 @@
 import prompt
 
 
-def game_even(question_and_answer, instruction):
+def game_logic(question_and_answer, instruction):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!\n"
