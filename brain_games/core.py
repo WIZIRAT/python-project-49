@@ -16,4 +16,4 @@ def game_logic(question_and_answer, instruction):
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\n"
                   f"Let's try again, {name}!")
             return
-        print(f"Confratulations, {name}!")
+        print(f"Congratulations, {name}!")
