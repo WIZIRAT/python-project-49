@@ -14,7 +14,8 @@ def get_progression():
         progression.append(start_number + step * i)
     progression[hidden_index] = '..'
     result = ' '.join(map(str, progression))
-    return result, str(progression[hidden_index])
+    correct_answer = str(start_number + step * hidden_index)
+    return result, correct_answer
 
 
 def start_game_progression():
