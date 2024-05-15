@@ -5,11 +5,11 @@ import math
 
 
 def find_gcd():
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
+    num_one = random.randint(1, 100)
+    num_second = random.randint(1, 100)
 
-    expression = (f"{num1} {num2}")
-    result = str(math.gcd(num1, num2))
+    expression = (f"{num_one} {num_second}")
+    result = str(math.gcd(num_one, num_second))
     return expression, result
 
 
