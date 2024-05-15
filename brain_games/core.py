@@ -8,8 +8,7 @@ def game_logic(question_and_answer, instruction):
           f"{instruction}")
     for i in range(3):
         question, correct_answer = question_and_answer()
-        user_answer = prompt.string(f"Question: {question}\n"
-                               "Your answer: ")
+        user_answer = prompt.string(f"Question: {question}\n" "Your answer: ")
         if user_answer == correct_answer:
             print('Correct!')
         else:
