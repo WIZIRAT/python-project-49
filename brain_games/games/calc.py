@@ -4,11 +4,11 @@ from brain_games.instruction import INSTRUCTION_CALC
 
 
 def get_math_expression():
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
+    num_one = random.randint(1, 100)
+    num_second = random.randint(1, 100)
     operator = random.choice(['+', '-', '*'])
 
-    expression = (f"{num1} {operator} {num2}")
+    expression = (f"{num_one} {operator} {num_second}")
     result = str(eval(expression))
     return expression, result
 
