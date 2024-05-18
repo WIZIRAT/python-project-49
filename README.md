@@ -13,7 +13,10 @@
 4. Арифметическая прогрессия
 5. Простое ли число? 
 
-Аскинема
+
+## Минимальные требования
+
+### Аскинема
 
 Игра: "Проверка на чётность"
 [![asciicast](https://asciinema.org/a/JWNPCGcIZll64q9b3cD46ZlR9.svg)](https://asciinema.org/a/JWNPCGcIZll64q9b3cD46ZlR9)
