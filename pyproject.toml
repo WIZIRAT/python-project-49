@@ -1,9 +1,14 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "educational project hexlet №1 with a set of games."
+classifiers = [
+	"Topic :: Software Development :: Games",
+	"Topic :: Programming Language :: Python :: ^3.10",
+]
 authors = ["WIZIRAT <ni.kb@yandex.com>"]
 readme = "README.md"
+repository = "https://github.com/WIZIRAT/python-project-49"
 packages = [
   { include = "brain_games" },
 ]
