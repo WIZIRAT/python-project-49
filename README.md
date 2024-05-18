@@ -1,11 +1,22 @@
+#BRAIN GAMES
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/WIZIRAT/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/WIZIRAT/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/129b114f4a64de41ae20/maintainability)](https://codeclimate.com/github/WIZIRAT/python-project-49/maintainability)
 
+##Описание проекта
+Данный проект является первым учебным проектом.
+Он способен запускать такие математические игры:
+1. Проверка на чётность
+2. Калькулятор
+3. Неибольший общий делитель (НОД)
+4. Арифметическая прогрессия
+5. Простое ли число? 
+
 Аскинема
 
 Игра: "Проверка на чётность"
-[![asciicast](https://asciinema.org/a/GnxN13ne7N0n0J6475BGOswbL.svg)](https://asciinema.org/a/GnxN13ne7N0n0J6475BGOswbL)
+[![asciicast](https://asciinema.org/a/JWNPCGcIZll64q9b3cD46ZlR9.svg)](https://asciinema.org/a/JWNPCGcIZll64q9b3cD46ZlR9)
 
 Игра: "Калькулятор"
 [![asciicast](https://asciinema.org/a/IMbsx67bmIr0WOLUcGFdlMUYA.svg)](https://asciinema.org/a/IMbsx67bmIr0WOLUcGFdlMUYA)
