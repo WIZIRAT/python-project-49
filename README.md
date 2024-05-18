@@ -12,12 +12,12 @@
 
 
 Игра: "Наибольший общий делитель (НОД)"
-[![asciicast](https://asciinema.org/a/NlaN1L9JcmME9zTab8L6S09u4.svg)](https://asciinema.org/a/NlaN1L9JcmME9zTab8L6S09u4)
+[![asciicast](https://asciinema.org/a/RC1K8o7mBsAPZ0EHEFxLa14qn.svg)](https://asciinema.org/a/RC1K8o7mBsAPZ0EHEFxLa14qn)
 
 
 Игра: "Арифметическая прогрессия"
-[![asciicast](https://asciinema.org/a/lPKLmOKlj4L0jRE1DIBXCUoQK.svg)](https://asciinema.org/a/lPKLmOKlj4L0jRE1DIBXCUoQK)
+[![asciicast](https://asciinema.org/a/4celTNZao2fq2T03fILPb3mxV.svg)](https://asciinema.org/a/4celTNZao2fq2T03fILPb3mxV)
 
 
 Игра: "Простое ли число?"
-[![asciicast](https://asciinema.org/a/dVQkv1AffJoVquvCPMgKZfgQe.svg)](https://asciinema.org/a/dVQkv1AffJoVquvCPMgKZfgQe)
+[![asciicast](https://asciinema.org/a/JRZNcRIIn3O662x2KDscAQgu0.svg)](https://asciinema.org/a/JRZNcRIIn3O662x2KDscAQgu0)
