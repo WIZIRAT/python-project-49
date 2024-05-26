@@ -1,13 +1,22 @@
 from brain_games.core import game_logic
 import random
-from brain_games.instruction import INSTRUCTION_PROGRESSION
+
+
+INSTRUCTION_PROGRESSION = 'What number is missing in the progression?'
+MIN_PROGRESSION_LEN = 5
+MAX_PROGRESSION_LEN = 10
+MIN_STEP_LEN = 1
+MAX_STEP_LEN = 10
+MIN_START_NUM = 1
+MAX_START_NUM = 100
+START_NUM_HIDDEN_INDEX = 0
 
 
 def get_progression():
-    progression_len = random.randint(5, 10)
-    hidden_index = random.randint(0, progression_len - 1)
-    start_number = random.randint(1, 100)
-    step = random.randint(1, 10)
+    progression_len = random.randint(MIN_PROGRESSION_LEN, MAX_PROGRESSION_LEN)
+    hidden_index = random.randint(START_NUM_HIDDEN_INDEX, progression_len - 1)
+    start_number = random.randint(MIN_START_NUM, MAX_START_NUM)
+    step = random.randint(MIN_STEP_LEN, MAX_STEP_LEN)
     progression = []
 
     for i in range(progression_len):
