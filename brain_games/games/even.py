@@ -1,6 +1,8 @@
 from brain_games.core import game_logic
 import random
-from brain_games.instruction import INSTRUCTION_EVEN
+
+
+INSTRUCTION_EVEN = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def get_question_answer():
