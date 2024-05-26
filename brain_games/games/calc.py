@@ -1,6 +1,8 @@
 from brain_games.core import game_logic
 import random
-from brain_games.instruction import INSTRUCTION_CALC
+
+
+INSTRUCTION_CALC = 'What is the result of the expression?'
 
 
 def get_math_expression():
@@ -8,7 +10,7 @@ def get_math_expression():
     num_second = random.randint(1, 100)
     operator = random.choice(['+', '-', '*'])
 
-    expression = (f"{num_one} {operator} {num_second}")
+    expression = (f'{num_one} {operator} {num_second}')
     result = str(eval(expression))
     return expression, result
 
