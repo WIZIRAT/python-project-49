@@ -3,7 +3,7 @@ import random
 import math
 
 
-INSTRUCTION_GCD = 'Find the greatest common divisor of given numbers.'
+GAME_INSTRUCTION = 'Find the greatest common divisor of given numbers.'
 
 
 def find_gcd():
@@ -13,7 +13,3 @@ def find_gcd():
     expression = (f'{num_one} {num_second}')
     result = str(math.gcd(num_one, num_second))
     return expression, result
-
-
-def start_game_gcd():
-    game_logic(find_gcd, INSTRUCTION_GCD)

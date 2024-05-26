@@ -2,7 +2,7 @@ from brain_games.core import game_logic
 import random
 
 
-INSTRUCTION_PROGRESSION = 'What number is missing in the progression?'
+GAME_INSTRUCTION = 'What number is missing in the progression?'
 MIN_PROGRESSION_LEN = 5
 MAX_PROGRESSION_LEN = 10
 MIN_STEP_LEN = 1
@@ -25,7 +25,3 @@ def get_progression():
     result = ' '.join(map(str, progression))
     correct_answer = str(start_number + step * hidden_index)
     return result, correct_answer
-
-
-def start_game_progression():
-    game_logic(get_progression, INSTRUCTION_PROGRESSION)

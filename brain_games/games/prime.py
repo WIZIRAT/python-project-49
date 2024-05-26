@@ -2,7 +2,7 @@ from brain_games.core import game_logic
 import random
 
 
-INSTRUCTION_PRIME = 'Answer "yes" if given number is prime. \
+GAME_INSTRUCTION = 'Answer "yes" if given number is prime. \
 Otherwise answer "no".'
 
 
@@ -14,7 +14,3 @@ def is_prime():
         if number % i == 0:
             return number, "no"
     return number, "yes"
-
-
-def start_game_prime():
-    game_logic(is_prime, INSTRUCTION_PRIME)
