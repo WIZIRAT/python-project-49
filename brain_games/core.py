@@ -7,7 +7,7 @@ def start_game(game):
     print(f"Hello, {name}!\n"
           f"{game.GAME_INSTRUCTION}")
     for i in range(3):
-        question, correct_answer = question_and_answer()
+        question, correct_answer = game.generate_game()
         user_answer = prompt.string(f"Question: {question}\n" "Your answer: ")
         if user_answer == correct_answer:
             print('Correct!')
