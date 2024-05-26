@@ -5,7 +5,7 @@ def start_game(game):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!\n"
-          f"{GAME_INSTRUCTION}")
+          f"{game.GAME_INSTRUCTION}")
     for i in range(3):
         question, correct_answer = question_and_answer()
         user_answer = prompt.string(f"Question: {question}\n" "Your answer: ")
