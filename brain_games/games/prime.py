@@ -6,8 +6,8 @@ Otherwise answer "no".'
 
 
 def generate_game():
-    number = random.randint(1, 100)
-    if number == 1:
+    number = random.randint(0, 100)
+    if number == 1 or 0:
         return number, 'no'
     for i in range(2, (number // 2 + 1)):
         if number % i == 0:
