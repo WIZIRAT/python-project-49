@@ -11,7 +11,7 @@ MAX_START_NUM = 100
 START_NUM_HIDDEN_INDEX = 0
 
 
-def get_progression():
+def generate_game():
     progression_len = random.randint(MIN_PROGRESSION_LEN, MAX_PROGRESSION_LEN)
     hidden_index = random.randint(START_NUM_HIDDEN_INDEX, progression_len - 1)
     start_number = random.randint(MIN_START_NUM, MAX_START_NUM)
