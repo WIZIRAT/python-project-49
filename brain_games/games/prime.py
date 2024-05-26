@@ -1,9 +1,12 @@
 from brain_games.core import game_logic
 import random
-from brain_games.instruction import INSTRUCTION_PRIME
 
 
-def is_prime():
+INSTRUCTION_PRIME = 'Answer "yes" if given number is prime. \
+Otherwise answer "no".'
+
+
+ is_prime():
     number = random.randint(1, 100)
     if number == 1:
         return number, "no"
