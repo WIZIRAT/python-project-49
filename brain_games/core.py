@@ -1,11 +1,11 @@
 import prompt
 
 
-def game_logic(question_and_answer, instruction):
+def start_game(game):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!\n"
-          f"{instruction}")
+          f"{GAME_INSTRUCTION}")
     for i in range(3):
         question, correct_answer = question_and_answer()
         user_answer = prompt.string(f"Question: {question}\n" "Your answer: ")
