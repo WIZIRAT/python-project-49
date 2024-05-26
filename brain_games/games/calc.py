@@ -10,5 +10,10 @@ def generate_game():
     operator = random.choice(['+', '-', '*'])
 
     expression = (f'{num_one} {operator} {num_second}')
-    result = str(eval(expression))
+    if operator == '+':
+        result = num_one + num_second
+    elif operator == '-':
+        result = num_one - num_second
+    else:
+        result = num_one * num_second
     return expression, result
