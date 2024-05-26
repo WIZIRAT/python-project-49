@@ -16,4 +16,4 @@ def generate_game():
         result = num_one - num_second
     else:
         result = num_one * num_second
-    return expression, result
+    return expression, str(result)
