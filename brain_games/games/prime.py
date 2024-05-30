@@ -17,7 +17,7 @@ def generate_game():
 
 
 def is_prime(number):
-    if number == 1 or 0:
+    if number == 1 or number == 0:
         return False
     for i in range(2, (number // 2 + 1)):
         if number % i == 0:
