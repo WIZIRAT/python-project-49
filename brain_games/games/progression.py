@@ -25,7 +25,7 @@ def generate_progression():
     start_number = random.randint(MIN_START_NUM, MAX_START_NUM)
     step = random.randint(MIN_STEP_LEN, MAX_STEP_LEN)
     progression = [
-    for i in range(progression_len):
+        for i in range(progression_len):
         progression.append(start_number + step * i)
     ]
     return progression
