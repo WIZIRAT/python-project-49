@@ -12,6 +12,7 @@ START_NUM_HIDDEN_INDEX = 0
 
 
 def generate_game():
+    progression = generate_progression()
     progression[hidden_index] = '..'
     result = ' '.join(map(str, progression))
     correct_answer = str(start_number + step * hidden_index)
