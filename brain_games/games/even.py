@@ -16,7 +16,7 @@ def generate_game():
 
 
 def is_even(question):
-    if question % 2 == 0
+    if question % 2 == 0:
         return True
     else:
         return False
