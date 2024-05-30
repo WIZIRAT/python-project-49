@@ -8,5 +8,15 @@ MAX_NUM = 100
 
 def generate_game():
     question = random.randint(MIN_NUM, MAX_NUM)
-    result = 'yes' if question % 2 == 0 else 'no'
-    return question, result
+    if is_even(question) is False:
+        correct_answer = 'no'
+    else:
+        correct_answer = 'yes'
+    return question, correct_answer
+
+
+def is_even(question):
+    if question % 2 == 0
+        return True
+    else:
+        return False
